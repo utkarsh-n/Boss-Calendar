@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020FCCE914F7D9467F9866AE /* BossCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED059C59AD20B93E98D13D /* BossCalendarApp.swift */; };
+		0BBE36C7F6FDBC2B1922BE3A /* Seed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257EF51DB68496264119936 /* Seed.swift */; };
+		0E4D3DE5150844FEEFB72C2E /* JotSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352BE27F9715790EB3BF5512 /* JotSheet.swift */; };
+		11BFC1719F5B2DB53D77C7C2 /* InstrumentDesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BC79A032A4C155B3CB1EFF /* InstrumentDesignSystem.swift */; };
+		172FF849979C0D7E291A49BA /* InstrumentControlTouchBoundary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8065F5BDC09B664A6AD18E /* InstrumentControlTouchBoundary.swift */; };
+		17BCC875977F709C0ACE501D /* BossCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33FFDEC6712B0A1A9DCE799F /* BossCore.framework */; };
+		22D98835CB70FDB0293BD2FB /* DayDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEAEAAB6A75252ED88A3CCD /* DayDial.swift */; };
+		24B7BE317238C02416A6DEAC /* ShapedPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4354554BC1981E724AC49955 /* ShapedPlan.swift */; };
+		28941B45CBAF51888FA0713A /* OfflineIntelligence in Frameworks */ = {isa = PBXBuildFile; productRef = 1E0F2A5FE54D5A0FC9C60B35 /* OfflineIntelligence */; };
+		2CE1A4E359760184EE12EF1E /* LensRefraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D77C6FA3D1EC6A092DB92A /* LensRefraction.swift */; };
+		2CF16354BE4CE4E738D90CF7 /* TiltService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F387C5EEC6120D876BEB46 /* TiltService.swift */; };
+		302C35B5B054D2A299177D5D /* BlockSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4262792F480DA34BDCAE04A /* BlockSheet.swift */; };
+		34AEE11F253FEC2B98C868EF /* BossTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C3E88B9BD6ED6538270977 /* BossTheme.swift */; };
+		3D8006F45098F102EE1271E4 /* NaturalDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388B954CCE81EFEC41A5712 /* NaturalDate.swift */; };
+		50518E64934AFDE2467EC4C3 /* StationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905767D925977CF5C3FCE7B0 /* StationView.swift */; };
+		561BC446AE339F3221FD7D16 /* JotIdeaIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A2B5E6779FFFB4923B1AE1 /* JotIdeaIntent.swift */; };
+		5D8D1EC36D5ADF83766F4991 /* IdeaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E724C20B721435C0DA67ACC /* IdeaDetailView.swift */; };
+		662FE08940FA77D9F2C4B98D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD4F082E61A6EA23F3267EB /* Models.swift */; };
+		66CEDB64AC128C195B11B666 /* BossStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7284BD0C5CB2C902A8073B /* BossStore.swift */; };
+		69BBF18E9DCBD735AC5DC156 /* Planner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BCC4AA140690BF942697FE /* Planner.swift */; };
+		6E01C12808E3A384A03E76C8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C207FAABA2986A1BA85C64B /* SettingsView.swift */; };
+		75526D2C5FA8B423F6B934BA /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA59729D317A9ECE021C10 /* NotificationScheduler.swift */; };
+		7A7D59B206A656C24ED8E9B6 /* NudgesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADE532DC9A6D2C96C5D01E4 /* NudgesView.swift */; };
+		7D382E61D33799C24782A326 /* IdeaShaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D774949C3D305765AD8328 /* IdeaShaper.swift */; };
+		7DA799C2AFCFE87C49B4B61F /* BossCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33FFDEC6712B0A1A9DCE799F /* BossCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		87FCF6EE75106587D30E1D72 /* Sizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E910F3B4320B77E646A4CC35 /* Sizing.swift */; };
+		8B82DA05FBA7D7497BE58D32 /* DepotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B4E4E5FDB9D44721634663 /* DepotView.swift */; };
+		8F1EB8168CECE5AA4A476382 /* CalendarBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C92D21474E83FA53557A0F /* CalendarBridge.swift */; };
+		B480F46FC284428C26B26325 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 40C6BEB55745825E14FC040F /* Models */; };
+		B6BFD93C91BC003E0CE8E7A0 /* InstrumentLensOptics.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5C97D668DFCAF25DF4A559EB /* InstrumentLensOptics.metal */; };
+		BAFEA85010B08D561DB2553B /* BossCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33FFDEC6712B0A1A9DCE799F /* BossCore.framework */; };
+		CC7F3F416E4B14030CF0F7C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5E4951CBDD69362A6F099E6 /* Assets.xcassets */; };
+		CD255F4D82FF1A18F3030C58 /* TimeMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC12C2D600B325BAF84CAE /* TimeMath.swift */; };
+		D7F2D37F79879FC988892D2C /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC4D7E6485D817D0F2A835 /* BoardView.swift */; };
+		DBC3BD7FA06428EBFEF2432D /* OfflineIntelligenceMLX in Frameworks */ = {isa = PBXBuildFile; productRef = 3D2FC2B855984DFA4E8C8159 /* OfflineIntelligenceMLX */; };
+		F8A447A3D2CF6809FC9780C8 /* BossCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33FFDEC6712B0A1A9DCE799F /* BossCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4396D27A3CC73F9617FFD89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 593F6715621CF96B71687A6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65BD52B35F1476813463B1A6;
+			remoteInfo = BossCore;
+		};
+		D983E93462C49A09FB57219E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 593F6715621CF96B71687A6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65BD52B35F1476813463B1A6;
+			remoteInfo = BossCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		06DDFD06D12C2F4A7AA7D4D1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7DA799C2AFCFE87C49B4B61F /* BossCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385A879C378E5AF2AD585186 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F8A447A3D2CF6809FC9780C8 /* BossCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01ED059C59AD20B93E98D13D /* BossCalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossCalendarApp.swift; sourceTree = "<group>"; };
+		04FC12C2D600B325BAF84CAE /* TimeMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeMath.swift; sourceTree = "<group>"; };
+		05FA59729D317A9ECE021C10 /* NotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		0BD4F082E61A6EA23F3267EB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		15D77C6FA3D1EC6A092DB92A /* LensRefraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensRefraction.swift; sourceTree = "<group>"; };
+		1C207FAABA2986A1BA85C64B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		258274A4D0547BEBF92E3647 /* MLX */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MLX; path = ../OfflineIntelligenceKit/MLX; sourceTree = SOURCE_ROOT; };
+		33FFDEC6712B0A1A9DCE799F /* BossCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BossCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		352BE27F9715790EB3BF5512 /* JotSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JotSheet.swift; sourceTree = "<group>"; };
+		3B7284BD0C5CB2C902A8073B /* BossStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossStore.swift; sourceTree = "<group>"; };
+		40C6BEB55745825E14FC040F /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Models; path = App/Resources/Models; sourceTree = SOURCE_ROOT; };
+		4354554BC1981E724AC49955 /* ShapedPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapedPlan.swift; sourceTree = "<group>"; };
+		48B4E4E5FDB9D44721634663 /* DepotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepotView.swift; sourceTree = "<group>"; };
+		50D774949C3D305765AD8328 /* IdeaShaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaShaper.swift; sourceTree = "<group>"; };
+		5C97D668DFCAF25DF4A559EB /* InstrumentLensOptics.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = InstrumentLensOptics.metal; sourceTree = "<group>"; };
+		61C3E88B9BD6ED6538270977 /* BossTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossTheme.swift; sourceTree = "<group>"; };
+		6ACC439413A2E04B645BB85D /* BossCalendar.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BossCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C92D21474E83FA53557A0F /* CalendarBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarBridge.swift; sourceTree = "<group>"; };
+		83F387C5EEC6120D876BEB46 /* TiltService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltService.swift; sourceTree = "<group>"; };
+		86BC79A032A4C155B3CB1EFF /* InstrumentDesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentDesignSystem.swift; sourceTree = "<group>"; };
+		8FEF3A38F2B8FFB904E47BE4 /* BossCalendar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BossCalendar.entitlements; sourceTree = "<group>"; };
+		905767D925977CF5C3FCE7B0 /* StationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationView.swift; sourceTree = "<group>"; };
+		9CEAEAAB6A75252ED88A3CCD /* DayDial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDial.swift; sourceTree = "<group>"; };
+		9E724C20B721435C0DA67ACC /* IdeaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaDetailView.swift; sourceTree = "<group>"; };
+		A137480ACCFA636AA421C6B0 /* OfflineIntelligenceKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = OfflineIntelligenceKit; path = ../OfflineIntelligenceKit; sourceTree = SOURCE_ROOT; };
+		B4262792F480DA34BDCAE04A /* BlockSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockSheet.swift; sourceTree = "<group>"; };
+		BADE532DC9A6D2C96C5D01E4 /* NudgesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgesView.swift; sourceTree = "<group>"; };
+		C5A2B5E6779FFFB4923B1AE1 /* JotIdeaIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JotIdeaIntent.swift; sourceTree = "<group>"; };
+		C5E4951CBDD69362A6F099E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFAC4D7E6485D817D0F2A835 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		D257EF51DB68496264119936 /* Seed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seed.swift; sourceTree = "<group>"; };
+		D4BCC4AA140690BF942697FE /* Planner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planner.swift; sourceTree = "<group>"; };
+		DB8065F5BDC09B664A6AD18E /* InstrumentControlTouchBoundary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentControlTouchBoundary.swift; sourceTree = "<group>"; };
+		E2187A63EEFBA6E477568B2E /* BossCoreTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = BossCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8DD08D4E5CF1C01B4DF84D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E910F3B4320B77E646A4CC35 /* Sizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizing.swift; sourceTree = "<group>"; };
+		F388B954CCE81EFEC41A5712 /* NaturalDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalDate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76AB74F37390DABA04C4E4E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFEA85010B08D561DB2553B /* BossCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DA1A55257D11741D9A2EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BCC875977F709C0ACE501D /* BossCore.framework in Frameworks */,
+				28941B45CBAF51888FA0713A /* OfflineIntelligence in Frameworks */,
+				DBC3BD7FA06428EBFEF2432D /* OfflineIntelligenceMLX in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08678C669225BEC639753818 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C5E4951CBDD69362A6F099E6 /* Assets.xcassets */,
+				8FEF3A38F2B8FFB904E47BE4 /* BossCalendar.entitlements */,
+				01ED059C59AD20B93E98D13D /* BossCalendarApp.swift */,
+				E8DD08D4E5CF1C01B4DF84D4 /* Info.plist */,
+				E18B94CF9A0D17B6E436295F /* Design */,
+				A3C46ECE7C7EEC4DE2F6C479 /* Intents */,
+				F0F9E4B79A8F99A7473702B7 /* Resources */,
+				C78A3491B8DCFD15D7B3116D /* Services */,
+				3709A492C10918E3BE234E05 /* Store */,
+				C45A894582031B330A4F7C82 /* Views */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		29A211366A5F2F0456B5FEC3 /* Depot */ = {
+			isa = PBXGroup;
+			children = (
+				48B4E4E5FDB9D44721634663 /* DepotView.swift */,
+				9E724C20B721435C0DA67ACC /* IdeaDetailView.swift */,
+			);
+			path = Depot;
+			sourceTree = "<group>";
+		};
+		2A6312FB3D9FE8A45ED0C0AC /* Station */ = {
+			isa = PBXGroup;
+			children = (
+				9CEAEAAB6A75252ED88A3CCD /* DayDial.swift */,
+				905767D925977CF5C3FCE7B0 /* StationView.swift */,
+			);
+			path = Station;
+			sourceTree = "<group>";
+		};
+		3709A492C10918E3BE234E05 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				3B7284BD0C5CB2C902A8073B /* BossStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		633A89E9B174F75C118BB040 /* BossCore */ = {
+			isa = PBXGroup;
+			children = (
+				0BD4F082E61A6EA23F3267EB /* Models.swift */,
+				F388B954CCE81EFEC41A5712 /* NaturalDate.swift */,
+				D4BCC4AA140690BF942697FE /* Planner.swift */,
+				D257EF51DB68496264119936 /* Seed.swift */,
+				4354554BC1981E724AC49955 /* ShapedPlan.swift */,
+				E910F3B4320B77E646A4CC35 /* Sizing.swift */,
+				04FC12C2D600B325BAF84CAE /* TimeMath.swift */,
+			);
+			path = BossCore;
+			sourceTree = "<group>";
+		};
+		64347BF15A7146BE2DB04EC2 /* Jot */ = {
+			isa = PBXGroup;
+			children = (
+				352BE27F9715790EB3BF5512 /* JotSheet.swift */,
+			);
+			path = Jot;
+			sourceTree = "<group>";
+		};
+		6D7C0390A182BC49BA635D42 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				B4262792F480DA34BDCAE04A /* BlockSheet.swift */,
+				CFAC4D7E6485D817D0F2A835 /* BoardView.swift */,
+			);
+			path = Board;
+			sourceTree = "<group>";
+		};
+		704482408CA8EA05C3AB66AF = {
+			isa = PBXGroup;
+			children = (
+				08678C669225BEC639753818 /* App */,
+				633A89E9B174F75C118BB040 /* BossCore */,
+				923D4D7E876B477925962E82 /* BossCoreTests */,
+				AA82634772643FA0099A56EF /* Packages */,
+				AD104EF244DC27C13A4AA9D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		923D4D7E876B477925962E82 /* BossCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BossCoreTests;
+			sourceTree = "<group>";
+		};
+		A3C46ECE7C7EEC4DE2F6C479 /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				C5A2B5E6779FFFB4923B1AE1 /* JotIdeaIntent.swift */,
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		AA82634772643FA0099A56EF /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				258274A4D0547BEBF92E3647 /* MLX */,
+				A137480ACCFA636AA421C6B0 /* OfflineIntelligenceKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		AD104EF244DC27C13A4AA9D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ACC439413A2E04B645BB85D /* BossCalendar.app */,
+				33FFDEC6712B0A1A9DCE799F /* BossCore.framework */,
+				E2187A63EEFBA6E477568B2E /* BossCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45A894582031B330A4F7C82 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				61C3E88B9BD6ED6538270977 /* BossTheme.swift */,
+				6D7C0390A182BC49BA635D42 /* Board */,
+				29A211366A5F2F0456B5FEC3 /* Depot */,
+				64347BF15A7146BE2DB04EC2 /* Jot */,
+				E475E44B7A2D35CC368563D4 /* Nudges */,
+				D487EF0BCDD628D6BF69E632 /* Settings */,
+				2A6312FB3D9FE8A45ED0C0AC /* Station */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C78A3491B8DCFD15D7B3116D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				80C92D21474E83FA53557A0F /* CalendarBridge.swift */,
+				50D774949C3D305765AD8328 /* IdeaShaper.swift */,
+				05FA59729D317A9ECE021C10 /* NotificationScheduler.swift */,
+				83F387C5EEC6120D876BEB46 /* TiltService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D487EF0BCDD628D6BF69E632 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1C207FAABA2986A1BA85C64B /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E18B94CF9A0D17B6E436295F /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				DB8065F5BDC09B664A6AD18E /* InstrumentControlTouchBoundary.swift */,
+				86BC79A032A4C155B3CB1EFF /* InstrumentDesignSystem.swift */,
+				5C97D668DFCAF25DF4A559EB /* InstrumentLensOptics.metal */,
+				15D77C6FA3D1EC6A092DB92A /* LensRefraction.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		E475E44B7A2D35CC368563D4 /* Nudges */ = {
+			isa = PBXGroup;
+			children = (
+				BADE532DC9A6D2C96C5D01E4 /* NudgesView.swift */,
+			);
+			path = Nudges;
+			sourceTree = "<group>";
+		};
+		F0F9E4B79A8F99A7473702B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				40C6BEB55745825E14FC040F /* Models */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1908D8161CE6914268F089E2 /* BossCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6D40A204989EE3C2B39BAD /* Build configuration list for PBXNativeTarget "BossCoreTests" */;
+			buildPhases = (
+				1F2D049BDE0A752619537087 /* Sources */,
+				76AB74F37390DABA04C4E4E6 /* Frameworks */,
+				06DDFD06D12C2F4A7AA7D4D1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95C8C6C8577FBC2E8B925D0B /* PBXTargetDependency */,
+			);
+			name = BossCoreTests;
+			packageProductDependencies = (
+			);
+			productName = BossCoreTests;
+			productReference = E2187A63EEFBA6E477568B2E /* BossCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65BD52B35F1476813463B1A6 /* BossCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763E2887C2B90D9025C60F63 /* Build configuration list for PBXNativeTarget "BossCore" */;
+			buildPhases = (
+				941BCC9DF3C57DAEA646D481 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BossCore;
+			packageProductDependencies = (
+			);
+			productName = BossCore;
+			productReference = 33FFDEC6712B0A1A9DCE799F /* BossCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D639662C391B67BC9054FA8F /* BossCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF4BE4ECCF7FEF8C002592D /* Build configuration list for PBXNativeTarget "BossCalendar" */;
+			buildPhases = (
+				52FF2A592B65B6AD9430A584 /* Sources */,
+				E4CD07D9DCF2954E784EFE3B /* Resources */,
+				C7DA1A55257D11741D9A2EA0 /* Frameworks */,
+				385A879C378E5AF2AD585186 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D213C3D081BCCF7FAA91C23 /* PBXTargetDependency */,
+			);
+			name = BossCalendar;
+			packageProductDependencies = (
+				1E0F2A5FE54D5A0FC9C60B35 /* OfflineIntelligence */,
+				3D2FC2B855984DFA4E8C8159 /* OfflineIntelligenceMLX */,
+			);
+			productName = BossCalendar;
+			productReference = 6ACC439413A2E04B645BB85D /* BossCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		593F6715621CF96B71687A6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1908D8161CE6914268F089E2 = {
+
+						ProvisioningStyle = Automatic;
+					};
+					65BD52B35F1476813463B1A6 = {
+
+						ProvisioningStyle = Automatic;
+					};
+					D639662C391B67BC9054FA8F = {
+
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 19C7B4CD8969CC0209BA943A /* Build configuration list for PBXProject "BossCalendar" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 704482408CA8EA05C3AB66AF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6FC0A36D3EAA81F6378C7FA6 /* XCLocalSwiftPackageReference "../OfflineIntelligenceKit" */,
+				96FCC76E1015F73961FD9578 /* XCLocalSwiftPackageReference "../OfflineIntelligenceKit/MLX" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AD104EF244DC27C13A4AA9D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65BD52B35F1476813463B1A6 /* BossCore */,
+				D639662C391B67BC9054FA8F /* BossCalendar */,
+				1908D8161CE6914268F089E2 /* BossCoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4CD07D9DCF2954E784EFE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7F3F416E4B14030CF0F7C2 /* Assets.xcassets in Resources */,
+				B480F46FC284428C26B26325 /* Models in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F2D049BDE0A752619537087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FF2A592B65B6AD9430A584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302C35B5B054D2A299177D5D /* BlockSheet.swift in Sources */,
+				D7F2D37F79879FC988892D2C /* BoardView.swift in Sources */,
+				020FCCE914F7D9467F9866AE /* BossCalendarApp.swift in Sources */,
+				66CEDB64AC128C195B11B666 /* BossStore.swift in Sources */,
+				34AEE11F253FEC2B98C868EF /* BossTheme.swift in Sources */,
+				8F1EB8168CECE5AA4A476382 /* CalendarBridge.swift in Sources */,
+				22D98835CB70FDB0293BD2FB /* DayDial.swift in Sources */,
+				8B82DA05FBA7D7497BE58D32 /* DepotView.swift in Sources */,
+				5D8D1EC36D5ADF83766F4991 /* IdeaDetailView.swift in Sources */,
+				7D382E61D33799C24782A326 /* IdeaShaper.swift in Sources */,
+				172FF849979C0D7E291A49BA /* InstrumentControlTouchBoundary.swift in Sources */,
+				11BFC1719F5B2DB53D77C7C2 /* InstrumentDesignSystem.swift in Sources */,
+				B6BFD93C91BC003E0CE8E7A0 /* InstrumentLensOptics.metal in Sources */,
+				561BC446AE339F3221FD7D16 /* JotIdeaIntent.swift in Sources */,
+				0E4D3DE5150844FEEFB72C2E /* JotSheet.swift in Sources */,
+				2CE1A4E359760184EE12EF1E /* LensRefraction.swift in Sources */,
+				75526D2C5FA8B423F6B934BA /* NotificationScheduler.swift in Sources */,
+				7A7D59B206A656C24ED8E9B6 /* NudgesView.swift in Sources */,
+				6E01C12808E3A384A03E76C8 /* SettingsView.swift in Sources */,
+				50518E64934AFDE2467EC4C3 /* StationView.swift in Sources */,
+				2CF16354BE4CE4E738D90CF7 /* TiltService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941BCC9DF3C57DAEA646D481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662FE08940FA77D9F2C4B98D /* Models.swift in Sources */,
+				3D8006F45098F102EE1271E4 /* NaturalDate.swift in Sources */,
+				69BBF18E9DCBD735AC5DC156 /* Planner.swift in Sources */,
+				0BBE36C7F6FDBC2B1922BE3A /* Seed.swift in Sources */,
+				24B7BE317238C02416A6DEAC /* ShapedPlan.swift in Sources */,
+				87FCF6EE75106587D30E1D72 /* Sizing.swift in Sources */,
+				CD255F4D82FF1A18F3030C58 /* TimeMath.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D213C3D081BCCF7FAA91C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65BD52B35F1476813463B1A6 /* BossCore */;
+			targetProxy = C4396D27A3CC73F9617FFD89 /* PBXContainerItemProxy */;
+		};
+		95C8C6C8577FBC2E8B925D0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65BD52B35F1476813463B1A6 /* BossCore */;
+			targetProxy = D983E93462C49A09FB57219E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		343FE4953A7CF835C91C403E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/BossCalendar.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.bosscalendar;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3E730FECE620BCD4DD890B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		5DBD631FDA6EFA19A241682C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.bosscalendar.core;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		662D1218AC29F904557ED687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.BossCoreTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BE61E561DB5458B3FC0EA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.bosscalendar.core;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		F2592DADFB6BA2746612A943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.BossCoreTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F80E7CBB0F1F9D5508DAB631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/BossCalendar.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.bosscalendar;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FB05E834ECC5556B3DE98A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19C7B4CD8969CC0209BA943A /* Build configuration list for PBXProject "BossCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E730FECE620BCD4DD890B27 /* Debug */,
+				FB05E834ECC5556B3DE98A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		763E2887C2B90D9025C60F63 /* Build configuration list for PBXNativeTarget "BossCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE61E561DB5458B3FC0EA07 /* Debug */,
+				5DBD631FDA6EFA19A241682C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8A6D40A204989EE3C2B39BAD /* Build configuration list for PBXNativeTarget "BossCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2592DADFB6BA2746612A943 /* Debug */,
+				662D1218AC29F904557ED687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8BF4BE4ECCF7FEF8C002592D /* Build configuration list for PBXNativeTarget "BossCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				343FE4953A7CF835C91C403E /* Debug */,
+				F80E7CBB0F1F9D5508DAB631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		6FC0A36D3EAA81F6378C7FA6 /* XCLocalSwiftPackageReference "../OfflineIntelligenceKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../OfflineIntelligenceKit;
+		};
+		96FCC76E1015F73961FD9578 /* XCLocalSwiftPackageReference "../OfflineIntelligenceKit/MLX" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../OfflineIntelligenceKit/MLX;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E0F2A5FE54D5A0FC9C60B35 /* OfflineIntelligence */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OfflineIntelligence;
+		};
+		3D2FC2B855984DFA4E8C8159 /* OfflineIntelligenceMLX */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OfflineIntelligenceMLX;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 593F6715621CF96B71687A6C /* Project object */;
+}

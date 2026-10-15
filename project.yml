@@ -1,0 +1,89 @@
+name: BossCalendar
+options:
+  bundleIdPrefix: com.utkarsh
+  deploymentTarget:
+    iOS: '27.0'
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: '6.0'
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+    MARKETING_VERSION: '1.0'
+    CURRENT_PROJECT_VERSION: '2'
+packages:
+  OfflineIntelligenceKit:
+    path: ../OfflineIntelligenceKit
+  OfflineIntelligenceMLX:
+    path: ../OfflineIntelligenceKit/MLX
+targets:
+  BossCore:
+    type: framework
+    platform: iOS
+    sources: [BossCore]
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.utkarsh.bosscalendar.core
+  BossCalendar:
+    type: application
+    platform: iOS
+    sources:
+      - path: App
+        excludes: [Resources/Models]
+      - path: App/Resources/Models
+        type: folder
+        buildPhase: resources
+    dependencies:
+      - target: BossCore
+      - package: OfflineIntelligenceKit
+        product: OfflineIntelligence
+      - package: OfflineIntelligenceMLX
+        product: OfflineIntelligenceMLX
+    entitlements:
+      path: App/BossCalendar.entitlements
+      properties:
+        com.apple.developer.kernel.increased-memory-limit: true
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: Boss Calendar
+        CFBundleName: Boss Calendar
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+        UIUserInterfaceStyle: Dark
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        NSCalendarsFullAccessUsageDescription: Boss Calendar reads when you're busy so it only books build blocks in your free time. It never edits your events.
+        NSMotionUsageDescription: Phone tilt moves the light across the Station dial.
+        ITSAppUsesNonExemptEncryption: false
+        LSApplicationCategoryType: public.app-category.productivity
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.utkarsh.bosscalendar
+        TARGETED_DEVICE_FAMILY: '1'
+        SUPPORTS_MACCATALYST: NO
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
+        SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+  BossCoreTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [BossCoreTests]
+    dependencies:
+      - target: BossCore
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  BossCalendar:
+    build:
+      targets:
+        BossCalendar: all
+        BossCoreTests: [test]
+    test:
+      targets: [BossCoreTests]
